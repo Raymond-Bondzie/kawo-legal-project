@@ -6,7 +6,7 @@
 .bgimage{
    width: 100%;
    height: 90vh;
-   background-image: url(https://images.unsplash.com/photo-1621570276129-f01c7c0d3360?ixid=MnwxMjA3fDF8MHxzZWFyY2h8NTl8fG1lZXRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+   background-image: linear-gradient(rgba(95, 30, 0, 0.363),rgba(109, 22, 0, 0.445)), url(https://images.unsplash.com/photo-1621570276129-f01c7c0d3360?ixid=MnwxMjA3fDF8MHxzZWFyY2h8NTl8fG1lZXRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
    position: relative;
 
 }
@@ -14,10 +14,12 @@
                             
 .links{
 	margin-right: 20px;
+	z-index: 1;
 }
 
 .links >li>a{
 	color: red;
+
 }
 
 .content {
@@ -50,7 +52,13 @@
 
 
 
-
+/* .overlay{
+	background: red;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: .3;
+} */
 
 
 
